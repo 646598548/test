@@ -1,0 +1,56 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"fix_div.init_mem.mem_1",
+    "fileName":"mem.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"fix_div.init_mem.mem_2",
+    "fileName":"mem.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"fix_div.init_mem.mem_3",
+    "fileName":"mem.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~fix_div|fix_div>io_out",
+    "sources":[
+      "~fix_div|fix_div>io_dividend"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"fix_div.init_mem",
+    "name":"fix_div.init_mem.mem_1.v",
+    "text":"module BindsTo_0_init_mem(\n  input        clock,\n  input  [3:0] io_addr,\n  output [3:0] io_dataOut_1,\n  output [3:0] io_dataOut_2,\n  output [3:0] io_dataOut_3\n);\n\ninitial begin\n  $readmemh(\"mem_1.txt\", init_mem.mem_1);\nend\n                      endmodule\n\nbind init_mem BindsTo_0_init_mem BindsTo_0_init_mem_Inst(.*);"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"fix_div.init_mem",
+    "name":"fix_div.init_mem.mem_2.v",
+    "text":"module BindsTo_1_init_mem(\n  input        clock,\n  input  [3:0] io_addr,\n  output [3:0] io_dataOut_1,\n  output [3:0] io_dataOut_2,\n  output [3:0] io_dataOut_3\n);\n\ninitial begin\n  $readmemh(\"mem_2.txt\", init_mem.mem_2);\nend\n                      endmodule\n\nbind init_mem BindsTo_1_init_mem BindsTo_1_init_mem_Inst(.*);"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"fix_div.init_mem",
+    "name":"fix_div.init_mem.mem_3.v",
+    "text":"module BindsTo_2_init_mem(\n  input        clock,\n  input  [3:0] io_addr,\n  output [3:0] io_dataOut_1,\n  output [3:0] io_dataOut_2,\n  output [3:0] io_dataOut_3\n);\n\ninitial begin\n  $readmemh(\"mem_3.txt\", init_mem.mem_3);\nend\n                      endmodule\n\nbind init_mem BindsTo_2_init_mem BindsTo_2_init_mem_Inst(.*);"
+  }
+]

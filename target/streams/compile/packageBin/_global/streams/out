@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /usr/chisle_code/srt_divide /target/scala-2.12/srt_divide-_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	float_div_lut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/float_div_lut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mycomparer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/mycomparer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	init_mem$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/init_mem$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sign_exp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/sign_exp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	float_div_lut$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/float_div_lut$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	init_mem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/init_mem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sign_exp$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/sign_exp$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mycomparer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/mycomparer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fix_div$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/fix_div$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	fix_div.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/fix_div.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mycomparer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /usr/chisle_code/srt_divide /target/scala-2.12/classes/mycomparer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

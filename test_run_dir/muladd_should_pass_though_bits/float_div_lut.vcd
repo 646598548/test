@@ -1,0 +1,623 @@
+$date
+2024-04-23T11:33+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module float_div_lut $end
+ $var wire 1 ! io_dividend_float_valid $end
+ $var wire 5 $ temp_exp $end
+ $var wire 1 ) io_exception_valid $end
+ $var wire 2 / cnt $end
+ $var wire 1 3 io_div_out_ready $end
+ $var wire 1 4 io_divsor_float_ready $end
+ $var wire 2 = io_exception_bits $end
+ $var wire 11 > temp_m $end
+ $var wire 16 E io_dividend_float_bits $end
+ $var wire 1 G io_dividend_float_ready $end
+ $var wire 1 M clock $end
+ $var wire 1 P io_exception_ready $end
+ $var wire 16 R io_divsor_float_bits $end
+ $var wire 1 W io_div_out_valid $end
+ $var wire 1 ] io_divsor_float_valid $end
+ $var wire 1 ^ separate_float $end
+ $var wire 16 g io_div_out_bits $end
+ $var wire 1 i u_fix_div $end
+ $var wire 1 l reset $end
+  $scope module u_fix_div $end
+   $var wire 11 ' temp1 $end
+   $var wire 11 ( temp4 $end
+   $var wire 4 - mem_out_1 $end
+   $var wire 1 5 mem $end
+   $var wire 11 7 temp3 $end
+   $var wire 4 ? mem_out_3 $end
+   $var wire 4 I mem_out_0 $end
+   $var wire 10 O io_dividend $end
+   $var wire 11 X io_out $end
+   $var wire 11 Y temp2 $end
+   $var wire 11 Z dividend_temp $end
+   $var wire 4 \ mem_out_2 $end
+   $var wire 1 a clock $end
+   $var wire 10 j io_divsor $end
+   $var wire 11 m out_temp $end
+    $scope module mem $end
+     $var wire 4 # io_dataOut_3 $end
+     $var wire 4 . mem_1 $end
+     $var wire 4 0 mem_2_MPORT_addr_pipe_0 $end
+     $var wire 1 6 mem_2_MPORT_en_pipe_0 $end
+     $var wire 1 9 mem_0_MPORT_en_pipe_0 $end
+     $var wire 4 : io_dataOut_2 $end
+     $var wire 4 ; mem_1_MPORT_addr_pipe_0 $end
+     $var wire 1 < clock $end
+     $var wire 4 @ mem_3 $end
+     $var wire 1 B mem_3_MPORT_en_pipe_0 $end
+     $var wire 1 D mem_1_MPORT_en_pipe_0 $end
+     $var wire 4 J mem_0 $end
+     $var wire 4 N io_addr $end
+     $var wire 4 _ mem_0_MPORT_addr_pipe_0 $end
+     $var wire 4 b io_dataOut_1 $end
+     $var wire 4 d mem_2 $end
+     $var wire 4 f mem_3_MPORT_addr_pipe_0 $end
+     $var wire 4 n io_dataOut_0 $end
+      $scope module mem_1 $end
+        $scope module MPORT $end
+         $var wire 4 & data $end
+         $var wire 1 F clk $end
+         $var wire 1 Q en $end
+         $var wire 4 ` addr $end
+        $upscope $end
+      $upscope $end
+      $scope module mem_0 $end
+        $scope module MPORT $end
+         $var wire 1 , clk $end
+         $var wire 4 1 addr $end
+         $var wire 4 K data $end
+         $var wire 1 h en $end
+        $upscope $end
+      $upscope $end
+      $scope module mem_3 $end
+        $scope module MPORT $end
+         $var wire 4 2 data $end
+         $var wire 1 C en $end
+         $var wire 1 V clk $end
+         $var wire 4 k addr $end
+        $upscope $end
+      $upscope $end
+      $scope module mem_2 $end
+        $scope module MPORT $end
+         $var wire 4 8 addr $end
+         $var wire 1 L clk $end
+         $var wire 4 T data $end
+         $var wire 1 U en $end
+        $upscope $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+  $scope module separate_float $end
+   $var wire 16 " io_fpin1 $end
+   $var wire 2 % io_except_code $end
+   $var wire 6 * exp_temp $end
+   $var wire 10 + io_mout1 $end
+   $var wire 6 A in1temp $end
+   $var wire 6 H in2temp $end
+   $var wire 16 S io_fpin2 $end
+   $var wire 1 [ io_sign $end
+   $var wire 10 c io_mout2 $end
+   $var wire 5 e io_exp_out $end
+  $upscope $end
+  $scope module u_fix_div.mem $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0C
+b00000 e
+b00000000000 Y
+b00000000000 '
+b0000 @
+0i
+b00000000000 >
+b0000 8
+b0000 #
+0V
+b0000 :
+09
+b00 %
+b0000 n
+b0000 f
+0P
+03
+b0000 K
+b0000 .
+05
+b0000 b
+0a
+0L
+b0000 0
+0D
+b0000 d
+b0000000000000000 S
+b0000 \
+b0000 2
+b000000 H
+0F
+0[
+b00000000000 (
+0)
+b0000 I
+0]
+b0000000000 c
+b0000 `
+0W
+0B
+b0000 &
+b0000000000 +
+b00000000000 m
+b00000000000 X
+0<
+b00 =
+b00000000000 Z
+b0000 T
+b0000 ?
+06
+0!
+b0000 k
+b0000000000000000 E
+b0000 N
+0U
+0M
+b00000000000 7
+0l
+b0000 ;
+b0000000000000000 "
+0Q
+b0000 J
+04
+0h
+b00000 $
+b00 /
+b0000000000000000 g
+b0000000000000000 R
+b0000 1
+b000000 *
+b0000000000 j
+0G
+b000000 A
+b0000 _
+0^
+b0000 -
+b0000000000 O
+0,
+$end
+#0
+14
+b1011100000000000 g
+1G
+b10000000000 Y
+b01111 e
+b001111 *
+b10000000000 '
+1l
+b10000000000 Z
+b01110 $
+b10000000000 (
+b10000000000 7
+1[
+#1
+1B
+1Q
+1<
+1C
+1D
+1h
+16
+1a
+1L
+1M
+1F
+1U
+1V
+19
+1,
+#6
+0<
+b1011001101101000 g
+b1100100001111110 R
+b1100100001111110 S
+0a
+0L
+b11011101101 7
+b0001111110 j
+0M
+b0001111110 c
+b0001 N
+0F
+b01101 e
+b001101 *
+1]
+b010010 H
+b1011101101 +
+b010000 A
+0,
+b01110110100 X
+b11011101101 Y
+b11011101101 '
+b11011101101 Z
+b1100001011101101 E
+b11011101101 (
+1[
+b11101101000 >
+1!
+b1100001011101101 "
+0V
+0l
+b01100 $
+b1011101101 O
+b01110110100 m
+#11
+b0001 f
+1<
+04
+b1011011001111100 g
+b0001 K
+1a
+1L
+b00011011101 7
+b01 /
+b0010 b
+1M
+b0001 0
+1F
+b0001 1
+0G
+b0100 2
+b0001 I
+1,
+b0001 _
+b0010 -
+b0001 `
+b11001111100 X
+b0010 &
+b00110111011 Y
+b01101110110 '
+b00001101110 (
+b11001111100 >
+1)
+b0011 \
+b0011 T
+b0100 ?
+b0001 8
+b0001 k
+1V
+b0100 #
+b01101 $
+1W
+b0011 :
+b11001111100 m
+b0001 ;
+b0001 n
+#16
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#21
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#26
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#31
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#36
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#41
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#46
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#51
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#56
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#61
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#66
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#71
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#76
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#81
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#86
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#91
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#96
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#101
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#106
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#111
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#116
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#121
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#126
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#131
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#136
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#141
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#146
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#151
+1<
+04
+1F
+0G
+1V
+1W
+1a
+1L
+b01 /
+1,
+1M
+1)
+#156
+0<
+0F
+0V
+0a
+0L
+0,
+0M
+#161
+1<
+14
+1F
+1G
+1V
+0W
+1a
+1L
+b00 /
+1,
+1M
+0)
+#166
+0!
+b0000000000000000 R
+0]
+b0000000000000000 E
+0M

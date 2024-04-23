@@ -1,0 +1,83 @@
+$date
+2024-04-19T08:47+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module fp2fix $end
+ $var wire 2 ! io_except_code $end
+ $var wire 16 " io_fpin1 $end
+ $var wire 5 # io_exp_out $end
+ $var wire 6 $ in1temp $end
+ $var wire 10 % io_mout1 $end
+ $var wire 6 & exp_temp $end
+ $var wire 1 ' clock $end
+ $var wire 1 ( io_sign $end
+ $var wire 6 ) in2temp $end
+ $var wire 16 * io_fpin2 $end
+ $var wire 1 + reset $end
+ $var wire 10 , io_mout2 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b000000 $
+0(
+b00000 #
+b0000000000 %
+b0000000000 ,
+b00 !
+0'
+b000000 )
+0+
+b0000000000000000 "
+b000000 &
+b0000000000000000 *
+$end
+#0
+b001111 &
+b01111 #
+1+
+#1
+1'
+#6
+b00 !
+b1000000000 %
+b0101101000000000 "
+b010101 &
+b10101 #
+b0100001000000000 *
+0'
+b010110 $
+0+
+b1000000000 ,
+b010000 )
+#11
+1'
+#16
+0'
+#21
+1'
+#26
+0'
+#31
+1'
+#36
+0'
+#41
+1'
+#46
+0'
+#51
+1'
+#56
+0'
+#61
+1'
+#66
+b0000000000000000 "
+b0000000000000000 *
+0'

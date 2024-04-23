@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(passthroughtest, org.scalatest.tools.Framework$$anon$1@52450901, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpassthroughtest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmuladd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass though bits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 1 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	passthroughtest[0m

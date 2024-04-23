@@ -1,0 +1,456 @@
+$date
+2024-04-20T09:34+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module init_mem $end
+ $var wire 1 ! mem_1_MPORT_en_pipe_0 $end
+ $var wire 1 " mem_2_MPORT_en_pipe_0 $end
+ $var wire 4 # mem_0_MPORT_addr_pipe_0 $end
+ $var wire 1 & mem_3_MPORT_en_pipe_0 $end
+ $var wire 1 ' mem_0_MPORT_en_pipe_0 $end
+ $var wire 4 , io_addr $end
+ $var wire 4 - mem_1 $end
+ $var wire 4 . mem_3_MPORT_addr_pipe_0 $end
+ $var wire 4 / io_dataOut_1 $end
+ $var wire 4 2 mem_2_MPORT_addr_pipe_0 $end
+ $var wire 4 5 mem_3 $end
+ $var wire 1 6 clock $end
+ $var wire 4 8 mem_0 $end
+ $var wire 4 9 io_dataOut_0 $end
+ $var wire 4 = io_dataOut_3 $end
+ $var wire 1 ? reset $end
+ $var wire 4 @ mem_1_MPORT_addr_pipe_0 $end
+ $var wire 4 B mem_2 $end
+ $var wire 4 C io_dataOut_2 $end
+  $scope module mem_3 $end
+    $scope module MPORT $end
+     $var wire 4 $ data $end
+     $var wire 1 % en $end
+     $var wire 4 : addr $end
+     $var wire 1 A clk $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_2 $end
+    $scope module MPORT $end
+     $var wire 4 ( addr $end
+     $var wire 1 + en $end
+     $var wire 4 4 data $end
+     $var wire 1 < clk $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_0 $end
+    $scope module MPORT $end
+     $var wire 4 ) data $end
+     $var wire 1 0 en $end
+     $var wire 1 3 clk $end
+     $var wire 4 > addr $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_1 $end
+    $scope module MPORT $end
+     $var wire 1 * en $end
+     $var wire 4 1 addr $end
+     $var wire 1 7 clk $end
+     $var wire 4 ; data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+b0011 B
+0&
+b0000 =
+b0000 (
+0<
+0'
+b0000 >
+b0000 )
+06
+0!
+b0000 @
+b0000 #
+07
+0"
+b0000 9
+b0000 $
+b0000 :
+b0000 ;
+b0001 8
+b0000 4
+03
+b0000 .
+b0000 /
+b0000 1
+00
+b0000 2
+0?
+0*
+b0010 -
+b0000 ,
+0+
+0A
+b0100 5
+b0000 C
+$end
+#0
+1?
+b0011 4
+b0011 C
+b0001 9
+b0100 $
+b0100 =
+b0010 /
+b0010 ;
+b0001 )
+#1
+1!
+10
+13
+1<
+1%
+1"
+1&
+1*
+1'
+16
+1+
+17
+1A
+#6
+03
+0?
+0<
+06
+07
+0A
+#11
+13
+1<
+16
+17
+1A
+#16
+03
+0<
+06
+07
+0A
+b0001 ,
+#21
+13
+1<
+b0001 1
+b0001 .
+b0001 @
+b0001 #
+b0001 2
+16
+b0001 :
+17
+b0001 (
+1A
+b0001 >
+#26
+03
+0<
+06
+07
+0A
+b0010 ,
+#31
+13
+1<
+b0010 1
+b0010 .
+b0010 @
+b0010 #
+b0010 2
+16
+b0010 :
+17
+b0010 (
+1A
+b0010 >
+#36
+03
+0<
+06
+07
+0A
+b0011 ,
+#41
+13
+1<
+b0011 1
+b0011 .
+b0011 @
+b0011 #
+b0011 2
+16
+b0011 :
+17
+b0011 (
+1A
+b0011 >
+#46
+03
+0<
+06
+07
+0A
+b0100 ,
+#51
+13
+1<
+b0100 1
+b0100 .
+b0100 @
+b0100 #
+b0100 2
+16
+b0100 :
+17
+b0100 (
+1A
+b0100 >
+#56
+03
+0<
+06
+07
+0A
+b0101 ,
+#61
+13
+1<
+b0101 1
+b0101 .
+b0101 @
+b0101 #
+b0101 2
+16
+b0101 :
+17
+b0101 (
+1A
+b0101 >
+#66
+03
+0<
+06
+07
+0A
+b0110 ,
+#71
+13
+1<
+b0110 1
+b0110 .
+b0110 @
+b0110 #
+b0110 2
+16
+b0110 :
+17
+b0110 (
+1A
+b0110 >
+#76
+03
+0<
+06
+07
+0A
+b0111 ,
+#81
+13
+1<
+b0111 1
+b0111 .
+b0111 @
+b0111 #
+b0111 2
+16
+b0111 :
+17
+b0111 (
+1A
+b0111 >
+#86
+03
+0<
+06
+07
+0A
+b1000 ,
+#91
+13
+1<
+b1000 1
+b1000 .
+b1000 @
+b1000 #
+b1000 2
+16
+b1000 :
+17
+b1000 (
+1A
+b1000 >
+#96
+03
+0<
+06
+07
+0A
+b1001 ,
+#101
+13
+1<
+b1001 1
+b1001 .
+b1001 @
+b1001 #
+b1001 2
+16
+b1001 :
+17
+b1001 (
+1A
+b1001 >
+#106
+03
+0<
+06
+07
+0A
+b1010 ,
+#111
+13
+1<
+b1010 1
+b1010 .
+b1010 @
+b1010 #
+b1010 2
+16
+b1010 :
+17
+b1010 (
+1A
+b1010 >
+#116
+03
+0<
+06
+07
+0A
+b1011 ,
+#121
+13
+1<
+b1011 1
+b1011 .
+b1011 @
+b1011 #
+b1011 2
+16
+b1011 :
+17
+b1011 (
+1A
+b1011 >
+#126
+03
+0<
+06
+07
+0A
+b1100 ,
+#131
+13
+1<
+b1100 1
+b1100 .
+b1100 @
+b1100 #
+b1100 2
+16
+b1100 :
+17
+b1100 (
+1A
+b1100 >
+#136
+03
+0<
+06
+07
+0A
+b1101 ,
+#141
+13
+1<
+b1101 1
+b1101 .
+b1101 @
+b1101 #
+b1101 2
+16
+b1101 :
+17
+b1101 (
+1A
+b1101 >
+#146
+03
+0<
+06
+07
+0A
+b1110 ,
+#151
+13
+1<
+b1110 1
+b1110 .
+b1110 @
+b1110 #
+b1110 2
+16
+b1110 :
+17
+b1110 (
+1A
+b1110 >
+#156
+03
+0<
+06
+07
+0A
+b1111 ,
+#161
+13
+1<
+b1111 1
+b1111 .
+b1111 @
+b1111 #
+b1111 2
+16
+b1111 :
+17
+b1111 (
+1A
+b1111 >
+#166
+06
+b0000 ,
